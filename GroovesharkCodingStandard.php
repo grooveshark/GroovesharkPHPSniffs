@@ -72,6 +72,7 @@ class PHP_CodeSniffer_Standards_Grooveshark_GroovesharkCodingStandard extends PH
                 'Generic/Sniffs/NamingConventions/ConstructorNameSniff.php',
                 'Generic/Sniffs/NamingConventions/UpperCaseConstantNameSniff.php',
                 'Generic/Sniffs/Strings/UnnecessaryStringConcatSniff.php',
+                'Generic/Sniffs/Functions/OpeningFunctionBraceBsdAllmanSniff.php',
                );
 
     }//end getIncludedSniffs()
