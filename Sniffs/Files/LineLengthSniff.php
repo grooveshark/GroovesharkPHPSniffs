@@ -41,7 +41,7 @@ class Grooveshark_Sniffs_Files_LineLengthSniff extends Generic_Sniffs_Files_Line
      *
      * @var int
      */
-    protected $lineLimit = 120;
+    protected $lineLimit = 200;
 
     /**
      * The limit that the length of a line must not exceed.

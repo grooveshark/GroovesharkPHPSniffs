@@ -67,7 +67,6 @@ class PHP_CodeSniffer_Standards_Grooveshark_GroovesharkCodingStandard extends PH
                 'Generic/Sniffs/ControlStructures/InlineControlStructureSniff.php',
                 'Generic/Sniffs/Formatting/DisallowMultipleStatementsSniff.php',
                 'Generic/Sniffs/Formatting/NoSpaceAfterCastSniff.php',
-                'Generic/Sniffs/Metrics/CyclomaticComplexitySniff.php',
                 'Generic/Sniffs/Metrics/NestingLevelSniff.php',
                 'Generic/Sniffs/NamingConventions/ConstructorNameSniff.php',
                 'Generic/Sniffs/NamingConventions/UpperCaseConstantNameSniff.php',
