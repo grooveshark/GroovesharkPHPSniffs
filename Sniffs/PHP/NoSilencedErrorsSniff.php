@@ -39,7 +39,7 @@ class Grooveshark_Sniffs_PHP_NoSilencedErrorsSniff extends Generic_Sniffs_PHP_No
      *
      * @var bool
      */
-    protected $error = true;
+    public $error = true;
 
 }//end class
 
