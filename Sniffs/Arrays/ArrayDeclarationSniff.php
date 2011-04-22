@@ -413,17 +413,17 @@ class Grooveshark_Sniffs_Arrays_ArrayDeclarationSniff implements PHP_CodeSniffer
         $arrowStart   = ($indicesStart + $maxLength + 1);
         $valueStart   = ($arrowStart + 3);
         foreach ($indices as $index) {
-            /*if (isset($index['index']) === false) {
+            if (isset($index['index']) === false) {
                 // Array value only.
-                if (($tokens[$index['value']]['line'] !== $tokens[$stackPtr]['line']) && ($numValues > 1)) {
+                /*if (($tokens[$index['value']]['line'] !== $tokens[$stackPtr]['line']) && ($numValues > 1)) {
                     $error = 'The first value in a multi-value array must be on a new line';
                     $phpcsFile->addError($error, $stackPtr, 'FirstValueNoNewline');
-                }
+                }*/
 
                 continue;
             }
 
-            if (($tokens[$index['index']]['line'] !== $tokens[$stackPtr]['line'])) {
+            /*if (($tokens[$index['index']]['line'] !== $tokens[$stackPtr]['line'])) {
                 $error = 'The first index in a multi-value array must be on the same line';
                 $phpcsFile->addError($error, $stackPtr, 'FirstIndexNoNewline');
                 continue;
