@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="GroovesharkPHPSniffs">
+<ruleset name="Grooveshark">
  <description>The Grooveshark coding standard for PHP.</description>
  
  <!-- Include some sniffs from all around the place -->
